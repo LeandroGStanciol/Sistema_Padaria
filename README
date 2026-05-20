@@ -1,0 +1,129 @@
+# Casos de Teste - Sistema Estoque Padaria
+
+## CT01 - Cadastro de Produto
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT01 |
+| ID Requisito Funcional | RF01 |
+| Descrição | Validar o cadastro de um novo produto |
+| Pré-condição | Sistema conectado ao banco de dados |
+| Passos | 1. Abrir tela de cadastro <br> 2. Inserir nome, preço e quantidade <br> 3. Clicar em “Salvar” |
+| Resultado Esperado | Produto cadastrado com sucesso no banco de dados |
+
+---
+
+## CT02 - Cadastro com Campos Vazios
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT02 |
+| ID Requisito Funcional | RF01 |
+| Descrição | Validar tentativa de cadastro com campos vazios |
+| Pré-condição | Sistema aberto |
+| Passos | 1. Abrir tela de cadastro <br> 2. Deixar campos vazios <br> 3. Clicar em “Salvar” |
+| Resultado Esperado | Sistema exibe mensagem de erro informando campos obrigatórios |
+
+---
+
+## CT03 - Listagem de Produtos
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT03 |
+| ID Requisito Funcional | RF02 |
+| Descrição | Validar listagem de produtos cadastrados |
+| Pré-condição | Existirem produtos cadastrados |
+| Passos | 1. Abrir tela de estoque |
+| Resultado Esperado | Sistema exibe todos os produtos cadastrados |
+
+---
+
+## CT04 - Atualização de Produto
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT04 |
+| ID Requisito Funcional | RF03 |
+| Descrição | Validar atualização de dados do produto |
+| Pré-condição | Produto já cadastrado |
+| Passos | 1. Selecionar produto <br> 2. Alterar informações <br> 3. Salvar alterações |
+| Resultado Esperado | Dados do produto atualizados corretamente |
+
+---
+
+## CT05 - Exclusão de Produto
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT05 |
+| ID Requisito Funcional | RF04 |
+| Descrição | Validar exclusão de produto |
+| Pré-condição | Produto já cadastrado |
+| Passos | 1. Selecionar produto <br> 2. Clicar em “Excluir” |
+| Resultado Esperado | Produto removido do banco de dados |
+
+---
+
+## CT06 - Busca de Produto
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT06 |
+| ID Requisito Funcional | RF05 |
+| Descrição | Validar busca de produto pelo nome |
+| Pré-condição | Existirem produtos cadastrados |
+| Passos | 1. Digitar nome do produto na busca <br> 2. Clicar em pesquisar |
+| Resultado Esperado | Sistema retorna o produto correspondente |
+
+---
+
+## CT07 - Controle de Estoque
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT07 |
+| ID Requisito Funcional | RF06 |
+| Descrição | Validar atualização da quantidade em estoque |
+| Pré-condição | Produto cadastrado |
+| Passos | 1. Alterar quantidade do produto <br> 2. Salvar |
+| Resultado Esperado | Quantidade atualizada corretamente |
+
+---
+
+## CT08 - Validação de Preço Inválido
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT08 |
+| ID Requisito Funcional | RF07 |
+| Descrição | Validar bloqueio de preço negativo |
+| Pré-condição | Sistema aberto |
+| Passos | 1. Inserir preço negativo <br> 2. Tentar salvar produto |
+| Resultado Esperado | Sistema impede cadastro e exibe mensagem de erro |
+
+---
+
+## CT09 - Conexão com Banco de Dados
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT09 |
+| ID Requisito Funcional | RF08 |
+| Descrição | Validar conexão com banco de dados |
+| Pré-condição | MySQL ativo |
+| Passos | 1. Iniciar sistema |
+| Resultado Esperado | Sistema conecta ao banco sem erros |
+
+---
+
+## CT10 - Encerramento do Sistema
+
+| Campo | Descrição |
+|---|---|
+| ID Caso de Teste | CT10 |
+| ID Requisito Funcional | RF09 |
+| Descrição | Validar encerramento correto do sistema |
+| Pré-condição | Sistema aberto |
+| Passos | 1. Clicar em “Sair” |
+| Resultado Esperado | Sistema fecha corretamente sem apresentar falhas |
