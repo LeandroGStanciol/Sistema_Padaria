@@ -1,0 +1,28 @@
+#Requisitos Funcionais e Não Funcionais
+##Requisitos Funcionais (RF)
+
+Os requisitos funcionais representam as funcionalidades que o sistema deve executar.
+RF01 | O sistema deve permitir o cadastro de produtos                   
+RF02 | O sistema deve listar os produtos cadastrados                    
+RF03 | O sistema deve permitir a atualização dos dados dos produtos     
+RF04 | O sistema deve permitir a exclusão de produtos
+RF05 | O sistema deve permitir a busca de produtos pelo nome
+RF06 | O sistema deve controlar a quantidade de produtos em estoque
+RF07 | O sistema deve validar os dados inseridos no cadastro
+RF08 | O sistema deve conectar ao banco de dados MySQL
+RF09 | O sistema deve permitir o encerramento seguro da aplicação
+RF10 | O sistema deve exibir mensagens de confirmação e erro ao usuário
+
+##Requisitos Não Funcionais (RNF)
+
+Os requisitos não funcionais representam características de qualidade, desempenho e restrições do sistema.
+RNF01 | O sistema deve ser desenvolvido na linguagem Java
+RNF02 | O banco de dados utilizado deve ser o MySQL  
+RNF03 | O sistema deve possuir interface gráfica intuitiva
+RNF04 | O sistema deve apresentar tempo de resposta rápido nas operações
+RNF05 | O sistema deve garantir integridade dos dados cadastrados
+RNF06 | O sistema deve funcionar em computadores com Windows
+RNF07 | O sistema deve possuir organização modular do código
+RNF08 | O sistema deve permitir fácil manutenção e atualização
+RNF09 | O sistema deve impedir o cadastro de valores inválidos
+RNF10 | O sistema deve manter estabilidade durante o uso contínuo
