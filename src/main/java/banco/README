@@ -1,0 +1,25 @@
+# Sistema Estoque Padaria
+
+Sistema para controle de estoque de padaria desenvolvido em Java e MySQL.
+
+## Tecnologias
+- Java
+- MySQL
+- JDBC
+
+## Como executar
+
+### Banco de dados
+
+Importe o arquivo:
+
+banco/estoque_padaria.sql
+
+### Configuração
+
+Edite a conexão no projeto:
+
+```java
+String url = "jdbc:mysql://localhost:3306/estoque_padaria";
+String user = "root";
+String password = "V/SHSqsh(O7A3*6p";
